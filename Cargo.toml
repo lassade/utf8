@@ -1,0 +1,18 @@
+[package]
+name = "utf8"
+version = "0.1.0"
+edition = "2021"
+description = "faster utf8 chars iterator"
+license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/xml1"
+repository = "https://github.com/lassade/xml1"
+authors = ["Felipe Jorge <felipe.jorge.pereira@gmail.com>"]
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.4.0"
+
+[[bench]]
+name = "benchmark"
+harness = false
